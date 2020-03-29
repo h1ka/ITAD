@@ -1,10 +1,10 @@
 package com.intertad.task;
 
 import com.intertad.task.models.Sum;
-import com.intertad.task.service.impl.CSVProductService;
 import com.intertad.task.service.CountService;
-import com.intertad.task.service.impl.DefaultCountService;
 import com.intertad.task.service.ProductService;
+import com.intertad.task.service.impl.CSVProductService;
+import com.intertad.task.service.impl.DefaultCountService;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class StdIn {
-    private final String FILE_NAME = "~/file.csv";
+    private final String FILE_NAME = "file.csv";
 
     private final ProductService productService;
     private final CountService countService;
